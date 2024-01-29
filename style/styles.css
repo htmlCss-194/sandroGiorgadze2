@@ -1,0 +1,132 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+.navmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#textstyle {
+    background: linear-gradient(#39FF14, #2dff03);
+    -webkit-background-clip: text ;
+    font-size: 35px;
+}
+#navStyle {
+    color: aliceblue;
+    background-color: rgba(0, 0, 255, 0.728);
+    font-size: 30px;
+    margin: 15px;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#photostyle{
+    width: 450px;
+    height: 250px;
+}
+
+.headerphoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 667px;
+    position: relative;
+    animation: headerPhoto 10s infinite;
+}
+
+@keyframes headerPhoto {
+    0% {
+        left: 0%;
+    }
+    25% {
+        left: 35%;
+    }
+    50% {
+        left: 100%;
+    }
+    75% {
+        left: 35%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.Mheader{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.headertext4{
+    display: flex;
+    margin: auto;
+}
+.headertext3{
+    display: flex;
+    margin: auto;
+}
+
+.headertext2{
+    display: flex;
+    margin:auto;
+}
+
+.headertext1{
+    display: flex;
+    margin: auto;
+}
+.navmenu1{
+    display: flex;
+    flex-direction: column;
+}
+.navmenu2{
+    display: flex;
+    flex-direction: column;
+}
+.product3{
+    font-size: 22px;
+    width: 100px;
+    text-align: center;
+}
+.product2{
+    font-size: 22px;
+    width: 100px;
+    text-align: center;
+}
+.product1{
+    font-size: 22px;
+    width: 100px;
+    text-align: center;
+}
+#loremtext {
+    width: 180px;
+    text-align: center;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-style: sofia;
+    font-size: 20px;
+}
+#style{
+    font-size: 19px;
+    text-decoration: none;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    margin: 6px;
+}
